@@ -1,38 +1,107 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  /* box-sizing:border-box */
+}
+.navlink {
+  font-size: 12px;
+  /* /font-family: ""; */
+}
+.navbar{
+  position: sticky;
+  top: 0;
+  background: rgba(0,0,0,0.92); /* Safari 6.0 - 9.0 */
+  backdrop-filter: blur(4px);
+  
+}
+.iphone_14 {
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\iphone-14\hero_iphone14__fjmsqstr1ceq_large.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  font-family: sans-serif;
+  line-height: 2.1rem;
+  margin-top: 20px;
+  padding-top: 56px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.iphone_14_pro {
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\iphone-14_pro\hero_iphone14pro__e5xbgo5ffhg2_large.jpg");
+  margin-top: 7px;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.iwatch_ultra_text {
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\iWatch\hero_logo_apple_watch_ultra__etygmmkwgfma_large.png");
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+  background-repeat: no-repeat;
+  height: 10vh;
+  width: 320px;
+  margin: auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iwatch_ultra {
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\iWatch\hero_apple_watch_ultra__dtz0f3e8oscy_large.jpg");
+}
+.iwatch8_text{
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\logos\promo_logo_apple_watch_series_8__ee6riplsucuq_small.png");
+  height: 7vh;
+  width: 140px;
+  margin: auto;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 59px;
+  background-size: contain;
+}
+.iwatch8{
+  background-color: black;
+  color: white;
+  text-align: center;
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\promos\promo_apple_watch_series_8__ch7rexplmihe_small.jpg");
+  height: 78vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.airpods_pro{
+  padding-top:50px ;
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\promos\promo_airpods_pro_avail__gaxggskofx6y_small.jpg");
+}
+.iwatchse_text{
+background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\logos\promo_logo_apple_watch_se__b85vr9ri02gi_small.png");
+background-color: #fbfbfb;
+}
+.iwatchse{
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\promos\promo_apple_watch_se__f9702l6odgi2_small.jpg");
+  background-color: #f7f4f4;
+  color: black;
+}
+.fitness_text{
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\logos\promo_logo_fitness_plus_iphone__dpayetemakq6_small.png");
+  background-color: #f7f4f4;
+}
+.fitness{
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\promos\promo-apple-fitness-plus-iphone__bzeal882mv7m_small.jpg");
+  /* background-color: #f7f4f4; */
+  /* background-color: #fbfbfb; */
+  color: black;
+}
+.education{
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\promos\promo_edu__efkxh2h1luoi_small.jpg");
+}
+.education_text{
+  width: 50%;
+  margin: auto;
+  margin-top: 95px;
+}
+.card{
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\promos\tile__cauwwcyyn9hy_small.jpg");
+  color: black;
+}
+.card_text{
+  background-image: url("C:\Users\Piryanshu\Desktop\jennie\Apple_PiryanshuSite\Projects\apple_site\public\logos\logo__dcojfwkzna2q_small.png");
+  background-color: #fbfbfb;
 }
